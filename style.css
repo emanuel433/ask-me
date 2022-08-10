@@ -12,7 +12,7 @@ body {
 
 
 #container {
-  margin-top: 100px;
+  margin-top: 10px;
   width: 80%;
   max-width: 400px;
   margin-inline: auto;
@@ -73,5 +73,5 @@ button:hover {
   font-size: 16px;
   font-weight: normal;
   opacity: 0.9;
-  margin-bottom: 10px;
+  
 }

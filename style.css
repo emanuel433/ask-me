@@ -7,7 +7,7 @@ body {
   background-color: black;
   color: white;
   text-align: center;
-  font-family: sans-serif; 
+  font-family: 'Open Sans', sans-serif; 
 }
 
 
@@ -21,9 +21,12 @@ body {
 #container img {
   width: 200px;
   border-radius: 20px;
+  
 }
 
 h1 {
+  font-family: 'Rubik Marker Hatch', cursive;
+  text-decoration-color: green;
   margin-top: 40px;
   margin-bottom: 10px;
   opacity: 0.9;
@@ -49,7 +52,7 @@ input {
 
 button {
   border: none;
-  background-color: rgb(25, 95, 193);
+  background-color:#0295A9;
   color: white;
   transition: filter .2s;
 }

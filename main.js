@@ -2,31 +2,31 @@ const elementoResposta = document.querySelector('#resposta')
 const inputPergunta = document.querySelector('#inputPergunta')
 const buttonPerguntar = document.querySelector('#buttonPerguntar')
 const respostas = [
-  'Certeza!',
-  'Não tenho tanta certeza.',
-  'É decididamente assim.',
-  'Não conte com isso.',
-  'Sem dúvidas!',
-  'Pergunte novamente mais tarde.',
-  'Sim, definitivamente!',
-  'Minha resposta é não.',
-  'Você pode contar com isso.',
-  'Melhor não te dizer agora.',
-  'A meu ver, sim.',
-  'Minhas fontes dizem não.',
-  'Provavelmente.',
-  'Não é possível prever agora.',
-  'Perspectiva boa.',
-  'As perspectivas não são tão boas.',
-  'Sim.',
-  'Concentre-se e pergunte novamente.',
-  'Sinais apontam que sim.'
+  'Não vou dizer nada, quer ir VAI!',
+  'Um passo a frente e você não está mais no MESMO lugar',
+  'DREAM of californicaton',
+  'Cristopher Columbus is a damn blasted LIAR.',
+  'E vou viver as coisas NOVAS, que também são boas',
+  'Get up, stand up: stand up for YOUR rights!',
+  'Mas saiba que eu estou em VOCÊ Mas você não está em mim',
+  'Start me UP, i never stop!',
+  'LEIA o livro Universo em desencanto',
+  'tempo AMIGO seja legal',
+  'tem gente que vai pra NUNCA mais',
+  'Quem tem a força de saber que EXISTE',
+  'Não se assuste pessoa se eu lhe disser que a VIDA é boa',
+  'let it be, LET IT BE',
+  'o papa é POP',
+  'mas LOUCO é quem me diz, e não é feliz',
+  'saber amar é SABER deixar alguém te amar',
+  'a cada um cabe alegrias e a tristeza que VIER ',
+  'ONE life you got to do what you should'
 ]
 
 // clicar em fazer pergunta
 function fazerPergunta() {
   if (inputPergunta.value == '') {
-    alert('Digite sua pergunta')
+    alert('Digite UMA palavra')
     return
   }
 
